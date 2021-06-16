@@ -1,0 +1,9 @@
+# GraphNeuralNetworks
+perché abbiamo bisogno delle Graph Neural Networks. Le GNN sono in grado di gestire i dati strutturati a grafo.
+Spesso lavoriamo con dati tabulari, dati di immagini o dati di testo, tuttavia anche i dati strutturati a grafo sono molto comuni in numerose aree.
+Ad esempio, le molecole sono solitamente modellate come un grafo costituito da atomi (nodi) e legami (archi). Un altro esempio interessante sono i grafi della conoscenza di grandi dimensioni, che vengono solitamente utilizzati per i sistemi di raccomandazione da società di e-commerce come Amazon o Netflix. Oltre a questi esempi, ci sono molte aree in cui è possibile trovare dati a grafo, come reti IT, social network, rilevamento di frodi, sport e molti altri.
+Ma come possiamo sfruttare questi grafi per svolgere compiti di Machine Learning?
+Proprio come le classiche attività di machine learning, possiamo eseguire diversi tipi di previsioni in base ai dati del grafo.
+Prima di tutto, possiamo fare previsioni a livello di nodo. Ciò significa che si hanno nodi senza label/tag e si cerca di prevedere determinate proprietà in base agli altri nodi e le loro connessioni. Ad esempio, prevedere se una persona fuma o meno (classificazione dei nodi), in base alle informazioni degli amici più stretti in un social network.
+Un altro task comune è prevedere i collegamenti nei grafi. Ciò significa che si prevede se il nodo X e il nodo Y avranno, in futuro, una connessione. Ad esempio, si desidera prevedere quali film saranno più probabilmente guardati da una persona su Netflix. 
+Infine, si può utilizzare l’intero grafo come input (previsione a livello di grafo) ed eseguire previsioni basate sull’intera rappresentazione. Questo di solito viene fatto in medicina, quando si predice la prestazione/idoneità di una nuova molecola come farmaco. 
